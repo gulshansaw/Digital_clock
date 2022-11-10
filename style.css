@@ -1,0 +1,32 @@
+/* #clock {
+    font-size: 175px;
+    width: 900px;
+    margin: 200px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: yellow;
+    }
+body{
+    background-color: lightslategray;
+}     */
+
+
+body {
+    background: black;
+}
+
+#clock {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: #17D4FE;
+    font-size: 125px;
+    font-family: 'Roboto Mono', monospace;
+    letter-spacing: 7px;
+    /* border: 2px solid white;
+    border-radius: 20px; */
+
+
+}
